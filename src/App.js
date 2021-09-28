@@ -1,6 +1,7 @@
 import { useState } from "react";
-import "./App.css";
-import ProjectSlider from "./modules/Home/pages/Slider";
+import styled from "styled-components";
+
+import ProjectSlider from "./modules/Home/pages/Slider"
 function App() {
   const [data] = useState({
     projects: [
@@ -78,11 +79,23 @@ function App() {
   });
 
   return (
-    <div className="App">
-      <h1 className='projects-title'>Trending projects</h1>
+    <AppWrapper>
+      <ProjectsTitle>Trending projects</ProjectsTitle>
       <ProjectSlider data={data}/>
-    </div>
+    </AppWrapper>
   );
 }
+
+const AppWrapper = styled.div`
+  margin-top: 5%;
+`
+const ProjectsTitle = styled.h1`
+font-family: "Yaldevi";
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 900;
+  margin-bottom: 2%;
+  color: #282828;
+`
 
 export default App;

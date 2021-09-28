@@ -1,69 +1,11 @@
-.App {
-  margin-top: 5%;
-}
-
-.projects-title {
-  font-family: "Yaldevi";
-  text-align: center;
-  font-size: 3.5em;
-  font-weight: 900;
-  margin-bottom: 2%;
-  color: #282828;
-}
-
 .slider {
   display: inline-block;
   width: 80%;
   margin-left: 10%;
   text-align: center;
 }
-.item-image{
-  width: 100%;
-}
-
-.item-title{
-  float: left;
-  margin-top: 0;
-  margin-bottom: .7em;
-  font-weight: 600;
-  font-size: 1.4em;
-  width: 100%;
-  color: #282828;
-}
 
 .gray-text {
   color: #666564;
   font-size: .8em;
-}
-
-.author-avatar {
-  height: 45px;
-  border-radius: 100%;
-  vertical-align: middle;
-}
-.author-name {
-  margin-left: 1em;
-}
-
-.money-chart {
-  width: 90%;
-  height: 8px;
-  margin: 0 auto;
-  background-color: rgba(173, 173, 172,.5);
-  border-radius: 10px;
-  z-index: 1;
-}
-.filled-chart {
-  height: 8px;
-  border-radius: 10px;
-  z-index: 2;
-  background: rgb(255,187,0);
-  background: linear-gradient(45deg, rgba(255,187,0,0.5) 0%, rgba(170,59,165,0.5) 65%, rgba(29,15,242,0.5) 100%); 
-}
-
-.raised-info {
-  color: #575757;
-  font-family: "Yaldevi";
-  padding: 1em;
-  font-size: 1em;
 }
